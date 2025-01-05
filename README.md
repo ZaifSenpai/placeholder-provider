@@ -1,19 +1,20 @@
-# Placeholder SVG Generator API
+# Placeholder Generator API
 
-This project provides an API to generate placeholder SVG images with customizable dimensions and colors.
+This project provides an API to generate placeholder images with customizable dimensions and colors.
 
 ## API Endpoint
 
 ### GET /placeholder
 
-Generates a placeholder SVG image.
+Generates a placeholder image.
 
 #### Parameters
 
-- `w` (optional): Width of the SVG. Must be a non-negative number. Default is `1`.
-- `h` (optional): Height of the SVG. Must be a non-negative number. Default is `1`.
-- `color` (optional): Fill color of the SVG. Must be a valid hex color code or svg color value. Default is `white`.
+- `w` (optional): Width of the image. Must be a non-negative number. Default is `1`.
+- `h` (optional): Height of the image. Must be a non-negative number. Default is `1`.
+- `color` (optional): Fill color of the image. Must be a valid hex color code. Default is `#FFF`.
 - `show_error` (optional): Boolean flag to indicate whether to show errors. Setting this to `true` will return JSON object on error. `false` will return 1x1 SVG with error status code. Default is `false`.
+- `type` (optional): Type of the image. Must be either `svg` or `png`. Default is `svg`.
 
 #### Example Request
 

@@ -49,3 +49,5 @@ end
 gem "sidekiq", "~> 7.3"
 
 gem "sprockets-rails"
+
+gem "chunky_png", "~> 1.4"

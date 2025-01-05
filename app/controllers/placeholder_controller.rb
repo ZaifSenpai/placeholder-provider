@@ -4,8 +4,10 @@ class PlaceholderController < ApplicationController
 
     if result[:error]
       render json: { error: result[:error] }, status: :bad_request
-    else
+    elsif result[:svg].present?
       render plain: result[:svg], content_type: "image/svg+xml", status: result[:status]
+    else
+      render plain: result[:png], content_type: "image/png", status: result[:status]
     end
   end
 end
