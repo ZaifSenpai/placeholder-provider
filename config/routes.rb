@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "placeholder", to: "placeholder#index"
+  root to: "placeholder#index", via: :get
 end

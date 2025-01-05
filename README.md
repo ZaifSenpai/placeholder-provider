@@ -1,11 +1,11 @@
 # Placeholder Generator API
-<a href='https://placeholder-provider.onrender.com/placeholder?w=150&h=120&color=red' target="_blank"><img alt='Render' src='https://img.shields.io/badge/Demo-100000?style=flat&logo=Render&logoColor=white&labelColor=black&color=FF0000'/></a>
+<a href='https://placeholder-provider.onrender.com?w=150&h=120&color=%23ff0000' target="_blank"><img alt='Render' src='https://img.shields.io/badge/Example-100000?style=flat&logo=Render&logoColor=white&labelColor=black&color=FF0000'/></a>
 
 This project provides an API to generate placeholder images with customizable dimensions and colors.
 
 ## API Endpoint
 
-### GET /placeholder
+### GET /
 
 Generates a placeholder image.
 
@@ -20,7 +20,7 @@ Generates a placeholder image.
 #### Example Request
 
 ```sh
-curl "http://localhost:3000/placeholder?w=100&h=100&color=%23ff0000&show_error=true"
+curl "https://placeholder-provider.onrender.com?w=100&h=100&color=%23ff0000&show_error=true"
 ```
 
 #### Example Response
