@@ -1,4 +1,5 @@
 # Placeholder SVG Generator API
+<a href='https://placeholder-provider.onrender.com/placeholder?w=150&h=120&color=red' target="_blank"><img alt='Render' src='https://img.shields.io/badge/Demo-100000?style=flat&logo=Render&logoColor=white&labelColor=black&color=FF0000'/></a>
 
 This project provides an API to generate placeholder SVG images with customizable dimensions and colors.
 
