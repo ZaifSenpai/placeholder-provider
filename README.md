@@ -31,7 +31,7 @@ curl "https://placeholder-provider.onrender.com?w=100&h=100&color=%23ff0000&show
 ```
 Preview
 
-![Preview](https://placeholder-provider.onrender.com?w=100&h=100&color=%23ff0000&show_error=true)
+[![Preview](https://placeholder-provider.onrender.com?w=100&h=100&color=%23ff0000&show_error=true "Preview")](https://placeholder-provider.onrender.com?w=100&h=100&color=%23ff0000&show_error=true)
 
 - On error (with `show_error=true`):
 ```json
