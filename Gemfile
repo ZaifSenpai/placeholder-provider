@@ -46,6 +46,9 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
+gem "rubocop-performance"
+gem "rubocop-rails"
+
 gem "sidekiq", "~> 8.0"
 
 gem "sprockets-rails"

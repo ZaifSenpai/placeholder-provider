@@ -343,6 +343,8 @@ DEPENDENCIES
   kamal
   puma (>= 5.0)
   rails (~> 8.0.1)
+  rubocop-performance
+  rubocop-rails
   rubocop-rails-omakase
   sidekiq (~> 8.0)
   solid_cable
